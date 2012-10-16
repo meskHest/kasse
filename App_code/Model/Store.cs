@@ -13,6 +13,7 @@ public class Store
     public string adress { get; set; }
     public string info { get; set; }
     public bool active { get; set; }
+    public List<Image> image { get; set; }
     
     public Store()
 	{

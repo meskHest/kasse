@@ -17,6 +17,7 @@ public class Product
     public Department department { get; set; }
     public string tableOfContent { get; set; }
     public decimal price { get; set; }
+    public List<Image> image { get; set; }
 
 	public Product()
 	{

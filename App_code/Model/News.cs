@@ -14,6 +14,7 @@ public class News
     public DateTime created { get; set; }
     public string headline { get; set; }
     public string message { get; set; }
+    public List<Image> image { get; set; }
 
 	public News()
 	{
