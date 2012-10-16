@@ -9,7 +9,13 @@ using System.Web;
 public class Order
 {
     public int id { get; set; }
-    public int MyProperty { get; set; }
+    public User user { get; set; }
+    //public int MyProperty { get; set; } status
+    public int totalPrice { get; set; }
+    public DateTime timeForPickup { get; set; }
+    public User packedBy { get; set; }
+    public DateTime pickupDueTime { get; set; }
+    public Cart shoppingCart { get; set; }
 
 	public Order()
 	{
