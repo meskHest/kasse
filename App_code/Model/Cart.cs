@@ -8,6 +8,9 @@ using System.Web;
 /// </summary>
 public class Cart
 {
+    public int id { get; set; }
+    public User user { get; set; }
+    public List<Product> lstProducts { get; set; }
 
 
 	public Cart()

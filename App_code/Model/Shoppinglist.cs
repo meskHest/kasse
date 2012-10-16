@@ -13,7 +13,7 @@ public class Shoppinglist
     public DateTime date { get; set; }
     public int totalPrice { get; set; }
     public int userId { get; set; }
-    public List<Item> lstItem { get; set; }
+    public List<Product> lstProducts { get; set; }
 
 	public Shoppinglist()
 	{
