@@ -19,8 +19,7 @@ public class User
     public bool gender { get; set; }
     public string adress { get; set; }
     public int zipCode { get; set; }
-    public int roleId { get; set; }
-    public List<role> roles { get; set; }
+    public Role role { get; set; }
 
 	public User()
 	{
