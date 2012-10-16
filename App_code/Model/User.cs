@@ -10,14 +10,18 @@ public class User
 {
 	public User()
 	{
-		public int userId { get; set; }
-        public string name { get; set; }
-        public string userName { get; set; }
-        public string password { get; set; }
-        public int personalNumber { get; set; }
+		public int Id { get; set; }
+        public string Fname { get; set; }
+        public string Ename { get; set; }
+        public string pass { get; set; }
+        public int socialNumber { get; set; }
 	    public string email { get; set; }
-        public int mobilPhone { get; set; }
-        public int homePhone { get; set; }
+        public int cellphone { get; set; }
+        public int homeNr { get; set; }
         public bool gender { get; set; }
+        public string adress { get; set; }
+        public int zipCode { get; set; }
+        public int roleId { get; set; }
+        public List<role> roles { get; set; }
     }
 }
