@@ -10,9 +10,9 @@ public class User
 {
 	public User()
 	{
-		public int Id { get; set; }
-        public string Fname { get; set; }
-        public string Ename { get; set; }
+		public int id { get; set; }
+        public string fName { get; set; }
+        public string lName { get; set; }
         public string pass { get; set; }
         public int socialNumber { get; set; }
 	    public string email { get; set; }
